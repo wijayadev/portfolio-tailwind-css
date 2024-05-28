@@ -4,5 +4,8 @@
   },
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
+  },
+  "dependencies": {
+    "preline": "^2.3.0"
   }
 }
